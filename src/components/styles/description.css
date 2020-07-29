@@ -1,0 +1,9 @@
+.Description {
+    color: #fff;
+    position: absolute;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 50%;
+    top: 30%;
+    margin-right: 10%;
+}
