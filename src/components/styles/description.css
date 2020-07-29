@@ -3,7 +3,15 @@
     position: absolute;
     flex-direction: column;
     align-items: flex-start;
-    left: 50%;
+    left: 40%;
     top: 30%;
     margin-right: 10%;
+}
+
+.Description .Subtitle {
+    color: #7C7879;
+}
+
+.Description .Title {
+    color: #fff;
 }

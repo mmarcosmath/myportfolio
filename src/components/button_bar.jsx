@@ -1,6 +1,6 @@
 import React from 'react'
-import './styles/button-bar.css'
-export default () =>
+import './styles/header.css'
+export default props =>
     <div className="ButtonBar" >
-        NOMEAAAAAA
+        {props.label}
     </div>

@@ -2,9 +2,12 @@ body {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 34, 44, 1) 100%);
     min-height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column; */
     font-size: calc(10px + 2vmin);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #fff;
+}
+
+.Image{
+    height: 60%;
+    margin-left: 5%;
 }

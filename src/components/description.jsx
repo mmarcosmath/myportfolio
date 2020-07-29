@@ -1,9 +1,10 @@
 import React from 'react'
 import './styles/description.css'
-import Title from './title'
-import Subtitle from './subtitle'
+
 export default () =>
     <div className="Description" >
-        <Title />
-        <Subtitle />
+        <h1 className="Title">I am Marcos Matheus.</h1>
+        <p className="Subtitle">
+            <h3>Full Stack Developer to mobile devices, web, and desktop.</h3>
+        </p>
     </div>

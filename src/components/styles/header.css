@@ -1,11 +1,22 @@
 .Header {
-    position: absolute;
+    padding-top: 40px;
+    padding-left: 40%;
+    padding-right: 20%;
+    display: flex;
+    align-content: space-between;
+}
 
-    width: 100%;
-    height: 15%;
-    top: 0;
-    left: 0;
-    flex-direction: row;
-    /* left: 640px; */
-    /* top: 44px; */
+.Header .ButtonBar {
+    text-align: center;
+    margin-right: 15%;
+    width: 120px;
+    left: 40;
+    padding: 5px 10px 5px 10px;
+    min-width: 120px;
+    border: 3px solid #46B5D3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
 }

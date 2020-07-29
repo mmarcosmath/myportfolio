@@ -5,6 +5,8 @@ import ButtonBar from './button_bar'
 
 export default () =>
     <div className="Header" >
-        <ButtonBar/><ButtonBar/><ButtonBar/><ButtonBar/>
-        
+        <ButtonBar label="ABOUT" />
+        <ButtonBar label="PROJECTS" />
+        <ButtonBar label="EDUCATION" />
+        <ButtonBar label="CONTACT" />
     </div>
