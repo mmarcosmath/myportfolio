@@ -5,8 +5,32 @@ import ButtonBar from './button_bar'
 
 export default () =>
     <div className="Header" >
-        <ButtonBar label="ABOUT" />
-        <ButtonBar label="PROJECTS" />
-        <ButtonBar label="EDUCATION" />
-        <ButtonBar label="CONTACT" />
+        {/* <nav>
+            <ul> */}
+        {/* <li> */}
+            <a href="#" className="LinkButton">
+                <ButtonBar label="ABOUT" />
+                </a>
+        {/* </li>
+        <li> */}
+           <a href="#" className="LinkButton">
+                <ButtonBar label="PROJECTS" />
+                </a>
+        {/* </li>
+        <li> */}
+          <a href="#" className="LinkButton">
+            <ButtonBar label="EDUCATION" />
+            </a>
+        {/* </li>
+        <li> */}
+          <a href="#" className="LinkButton">
+                <ButtonBar label="CONTACT" />
+                </a>
+        {/* </li> */}
+
+        {/* </ul>
+        </nav> */}
+
+
+
     </div>

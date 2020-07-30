@@ -1,12 +1,38 @@
 .Header {
     padding-top: 40px;
-    padding-left: 40%;
-    padding-right: 20%;
+    margin-left: 40%;
     display: flex;
-    align-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
 }
 
-.Header .ButtonBar {
+.LinkButton {
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+.ButtonBar {
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    left: 40;
+    padding: 5px 10px 5px 10px;
+    min-width: 120px;
+    border: 3px solid #46B5D3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: white;
+    color: white;
+}
+
+.ButtonBar:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #46B5D3;
     text-align: center;
     margin-right: 15%;
     width: 120px;
@@ -20,3 +46,29 @@
     font-weight: 600;
     font-size: 14px;
 }
+
+/* 
+nav ul li a {
+	/* font:bold 14px arial;
+	display: block;
+    padding:5px 10px; 
+    
+	text-decoration: none;
+}
+
+nav ul li {
+    background: blue;
+    background-color: #46B5D3;
+margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    
+} */
